@@ -9,7 +9,7 @@ The library is license GNU-LGPL, so feel free to use it and package it with a mo
 Add to your build.gradle
 ```gradle
 repositories {
-	maven {
+    maven {
         url "https://jitpack.io"
     }
 }
