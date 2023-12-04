@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2023 Provismet
+ * 
+ * See https://github.com/Provismet/LilyLib/blob/1.20/LICENSE for the full license.
+ */
+
 package com.provismet.lilylib.util;
 
 import java.util.Iterator;

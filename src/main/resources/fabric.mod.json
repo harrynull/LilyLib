@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Provismet/LilyLib",
 		"issues": "https://github.com/Provismet/LilyLib/issues"
 	},
-	"license": "ARR",
+	"license": "GNU-LGPL v2.1",
 	"icon": "assets/lilylib/icon.png",
 	"environment": "*",
 	"entrypoints": {
