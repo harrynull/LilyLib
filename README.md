@@ -22,6 +22,6 @@ dependencies {
 }
 ```
 
-Where `${project.lilylib_version}` can either be replaced with a release tag, or you can define a `lilylib_version` parameter in your settings.gradle file.
+Where `${project.lilylib_version}` can either be replaced with a release tag, or you can define a `lilylib_version` parameter in your gradle.properties file.
 
 Check the [Jitpack.io](https://jitpack.io/#Provismet/LilyLib) page for working builds.
