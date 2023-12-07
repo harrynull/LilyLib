@@ -29,7 +29,7 @@ public class MoreMath {
      *      /_____|
      * start    o
      */
-    public class RightAngledTriangle {
+    public static class RightAngledTriangle {
         private final double hypotenuseLength; // Defined as the line between the start and end vectors.
         private final double oppositeLength; // The side opposite to the end vector.
         private final double adjacentLength; // The non-hypotenuse side adjacent to the end vector.
