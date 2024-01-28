@@ -1,4 +1,9 @@
+<div align="center">
+
 # LilyLib
+[![](https://img.shields.io/jitpack/version/com.github.Provismet/LilyLib?style=flat-square&logo=jitpack&color=F6F6F6)](https://jitpack.io/#Provismet/LilyLib)
+
+</div>
 
 I've started needing to reuse some of my modding code, so now I need a library I guess.
 
