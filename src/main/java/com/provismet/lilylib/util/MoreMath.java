@@ -17,6 +17,10 @@ public class MoreMath {
         return (double)MathHelper.floor(value / denominator) * denominator;
     }
 
+    public static float roundDownToMultipleFloat (float value, float denominator) {
+        return (float)MathHelper.floor(value / denominator) * denominator;
+    }
+
     /**
      * Allows for the creation and representation of right-angled triangles.
      * 
