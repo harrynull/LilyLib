@@ -24,6 +24,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.RotationAxis;
 
+/**
+ * EntityRenderer for {@link WorldItemEntity}.
+ * <p> This renders items in the world similar to how dropped items work in vanilla.
+ * <p> The rotation and offset within the bounding box of the entity are controlled by the implementing class.
+ */
 @Environment(EnvType.CLIENT)
 public class WorldItemEntityRenderer<T extends Entity> extends EntityRenderer<T> {
     private final ItemRenderer itemRenderer;

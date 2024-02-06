@@ -8,6 +8,13 @@ package com.provismet.lilylib.interfaces.entity;
 
 import net.minecraft.entity.FlyingItemEntity;
 
+/**
+ * <p> Interface intended for Entity subclasses.
+ * <p> This should be used by entities represented by an ItemStack, but not intended to be
+ * permanently front-facing.
+ * 
+ * <p> See {@link WorldItemEntityRenderer} for how this is used.
+ */
 public interface WorldItemEntity extends FlyingItemEntity {
     public default float getXRotation (float tickDelta) {
         return 0f;

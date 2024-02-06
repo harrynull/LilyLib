@@ -19,8 +19,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 
 /**
- * A particle that renders flat on the ground.
- * Supports animated sprites.
+ * <p> A particle that renders flat on the ground.
+ * <p> Supports animated sprites.
  */
 public abstract class FlatParticle extends SpriteBillboardParticle {
     protected final SpriteProvider spriteProvider;
